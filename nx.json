@@ -1,7 +1,29 @@
 {
-  "targetDefaults": {},
+  "targetDefaults": {
+    "@nx/vite:test": {
+      "cache": true,
+      "inputs": ["default", "^default"]
+    },
+    "lint": {
+      "inputs": [
+        "default",
+        "{workspaceRoot}/.eslintrc.json",
+        "{workspaceRoot}/.eslintignore",
+        "{workspaceRoot}/eslint.config.js"
+      ]
+    }
+  },
   "affected": {
     "defaultBase": "main"
   },
-  "nxCloudAccessToken": "M2FhNzBiYzUtYzljZi00MmRkLTkxMDUtOGE4YzI5MTVkNDM0fHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "M2FhNzBiYzUtYzljZi00MmRkLTkxMDUtOGE4YzI5MTVkNDM0fHJlYWQtd3JpdGU=",
+  "generators": {
+    "@nx/web:application": {
+      "style": "scss",
+      "linter": "eslint",
+      "unitTestRunner": "vitest",
+      "e2eTestRunner": "playwright"
+    }
+  },
+  "defaultProjectDirectory": "apps"
 }
