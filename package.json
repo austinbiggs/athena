@@ -40,6 +40,8 @@
     "targets": {}
   },
   "dependencies": {
+    "flowise": "^1.4.1",
+    "langchain": "^0.0.185",
     "tslib": "^2.3.0"
   }
 }
