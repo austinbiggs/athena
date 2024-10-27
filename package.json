@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "flowise": "^1.4.1",
-    "langchain": "^0.0.185",
+    "langchain": "^0.3.0",
     "tslib": "^2.3.0"
   }
 }
