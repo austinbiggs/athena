@@ -14816,7 +14816,7 @@ __metadata:
     "@vitest/ui": "npm:~0.34.0"
     eslint: "npm:~8.57.0"
     eslint-config-prettier: "npm:^9.0.0"
-    eslint-plugin-playwright: "npm:^0.22.0"
+    eslint-plugin-playwright: "npm:^2.0.0"
     flowise: "npm:^2.0.0"
     jsdom: "npm:~22.1.0"
     langchain: "npm:^0.2.0"
@@ -18240,18 +18240,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-playwright@npm:^0.22.0":
-  version: 0.22.2
-  resolution: "eslint-plugin-playwright@npm:0.22.2"
+"eslint-plugin-playwright@npm:^2.0.0":
+  version: 2.2.0
+  resolution: "eslint-plugin-playwright@npm:2.2.0"
   dependencies:
     globals: "npm:^13.23.0"
   peerDependencies:
-    eslint: ">=7"
-    eslint-plugin-jest: ">=25"
-  peerDependenciesMeta:
-    eslint-plugin-jest:
-      optional: true
-  checksum: 10c0/5bbc172eed795490a37b9aad473d4ce09279391bb165dba79644dc76e74bc8b1ebe017c6cceb5251461abdce6f2ce8199de416fcbcd637b614073b6073a1e755
+    eslint: ">=8.40.0"
+  checksum: 10c0/508b817ff71ae9c9dbd07a40b11b5f81804b3a143e45d9397aa98a72dcde99527e473808117dbd5bbf6ef82666a76635e830f654a4628c1576628ed1ed512ee2
   languageName: node
   linkType: hard
 
