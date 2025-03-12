@@ -13581,7 +13581,7 @@ __metadata:
     prettier: "npm:^2.6.2"
     swc-loader: "npm:0.2.6"
     tslib: "npm:^2.3.0"
-    typescript: "npm:~5.2.2"
+    typescript: "npm:~5.8.0"
     vite: "npm:~4.5.0"
     vitest: "npm:~0.32.0"
   languageName: unknown
@@ -28550,7 +28550,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.3.3":
+"typescript@npm:^5.3.3, typescript@npm:~5.8.0":
   version: 5.8.2
   resolution: "typescript@npm:5.8.2"
   bin:
@@ -28570,7 +28570,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^5.3.3#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A^5.3.3#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A~5.8.0#optional!builtin<compat/typescript>":
   version: 5.8.2
   resolution: "typescript@patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=29ae49"
   bin:
