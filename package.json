@@ -6,7 +6,7 @@
   "author": "Austin Biggs <austintbiggs@gmail.com>",
   "license": "MIT",
   "private": true,
-  "packageManager": "yarn@4.0.1",
+  "packageManager": "yarn@4.7.0",
   "devDependencies": {
     "@nx/devkit": "17.1.1",
     "@nx/eslint": "17.1.1",
