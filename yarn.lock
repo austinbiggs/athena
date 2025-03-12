@@ -12256,10 +12256,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.7.1":
-  version: 18.7.1
-  resolution: "@types/node@npm:18.7.1"
-  checksum: 8e800f88f458ea0c0014dfb7719455fdcf325f3e9177283d061b26e26599aa0beb71550914823585cf61b3d04abb9b9e5923b22a4c07016113fc304ba53ae2e3
+"@types/node@npm:18.19.80":
+  version: 18.19.80
+  resolution: "@types/node@npm:18.19.80"
+  dependencies:
+    undici-types: "npm:~5.26.4"
+  checksum: 6a272d17b3057096ed49cc2780b9739b6f91ffb7f555926a2dc2bf59577b9ee2cf71832003927aa6db21939dca9eb9654a6cd55504fe957c0330b19ce628c8b7
   languageName: node
   linkType: hard
 
@@ -13558,7 +13560,7 @@ __metadata:
     "@playwright/test": "npm:^1.36.0"
     "@swc-node/register": "npm:~1.10.0"
     "@swc/core": "npm:~1.11.0"
-    "@types/node": "npm:18.7.1"
+    "@types/node": "npm:18.19.80"
     "@typescript-eslint/eslint-plugin": "npm:^6.9.1"
     "@typescript-eslint/parser": "npm:^6.9.1"
     "@vitest/coverage-c8": "npm:~0.32.0"
